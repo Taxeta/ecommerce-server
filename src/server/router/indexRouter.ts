@@ -1,3 +1,4 @@
+import "dotenv/config";
 import express from "express";
 import paths from "../controllers/paths/paths.js";
 import { pingController } from "../controllers/pingController/pingController.js";
